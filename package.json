@@ -1,0 +1,21 @@
+{
+    "name": "charm-dark-plus",
+    "displayName": "Charm Dark+",
+    "description": "PyCharm Combined with Dark+",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.69.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Charm Dark+",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Charm Dark+-color-theme.json"
+            }
+        ]
+    }
+}
